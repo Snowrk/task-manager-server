@@ -2,7 +2,6 @@
   "name": "task-manager-server",
   "version": "1.0.0",
   "description": "server for task manager app",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
