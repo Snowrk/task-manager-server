@@ -1,0 +1,28 @@
+{
+  "name": "task-manager-server",
+  "version": "1.0.0",
+  "description": "server for task manager app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snowrk/task-manager-server.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0"
+  },
+  "author": "Snowrk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snowrk/task-manager-server/issues"
+  },
+  "homepage": "https://github.com/Snowrk/task-manager-server#readme"
+}
