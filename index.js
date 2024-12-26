@@ -53,7 +53,7 @@ const authenticateToken = (request, response, next) => {
   }
 };
 app.get("/", (request, response) => {
-  response.send("Welcome to TODO API");
+  response.send("Welcome to TaskManager API");
 });
 app.post("/signup/", async (request, response) => {
   try {
@@ -305,3 +305,5 @@ process.on("SIGTERM", async () => {
     process.exit(1);
   }
 });
+
+export default app;
